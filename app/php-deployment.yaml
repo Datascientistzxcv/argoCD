@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: php-container
-        image: bitnami/php-fpm
+        image: nginx:latest
         ports:
         - containerPort: 80
