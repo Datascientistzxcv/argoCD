@@ -3,10 +3,6 @@ kind: Deployment
 metadata:
   name: php-app
   namespace: phpns
-
-
-
-
 spec:
   replicas: 2
   selector:
