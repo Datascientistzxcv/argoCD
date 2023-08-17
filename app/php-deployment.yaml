@@ -22,7 +22,7 @@ spec:
             - name: nginx-config
               mountPath: /etc/nginx/conf.d
         - name: php-container
-          image: futureops/argpphp:latest
+          image: futureops/argofpm:latest
           ports:
             - containerPort: 9000
       volumes:
